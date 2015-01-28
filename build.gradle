@@ -32,6 +32,7 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-data-jpa")
     compile("org.springframework.boot:spring-boot-starter-data-rest")
     compile("com.h2database:h2")
+    compile("org.postgresql:postgresql:9.3-1102-jdbc41")
     testCompile("junit:junit")
 }
 

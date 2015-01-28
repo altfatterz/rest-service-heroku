@@ -3,8 +3,10 @@ package com.altfatterz.course;
 import org.springframework.data.jpa.domain.AbstractPersistable;
 
 import javax.persistence.Entity;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "courses")
 public class Course extends AbstractPersistable<Long> {
 
     private String name;
