@@ -1,0 +1,1 @@
+[ ![Codeship Status for altfatterz/rest-service-heroku](https://codeship.com/projects/20a66550-8937-0132-5bd2-12c0a58f6951/status?branch=master)]
