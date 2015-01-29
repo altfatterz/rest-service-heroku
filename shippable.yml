@@ -1,0 +1,11 @@
+language: java
+
+jdk:
+  - oraclejdk8
+
+# specify the build_image
+build_image: shippableimages/ubuntu1204_java
+
+script:
+  - ./gradlew build
+
